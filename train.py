@@ -10,6 +10,8 @@ import argparse
 import logging
 import math
 import os
+os.environ["WANDB_API_KEY"] = "b48673e948c98556fc5e235f186eee56e8360400"
+os.environ["WANDB_MODE"] = "offline"
 import random
 import sys
 import time
